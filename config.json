@@ -1,0 +1,135 @@
+{
+  "fields": [
+    {
+      "displayName": "Contract Type",
+      "order": 5,
+      "tooltip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+      "type": "dropdown",
+      "values": [
+        {
+          "id": 0,
+          "value": "None"
+        },
+        {
+          "id": 1,
+          "value": "Service Agreements"
+        },
+        {
+          "id": 2,
+          "value": "Advisory"
+        },
+        {
+          "id": 3,
+          "value": "CDA"
+        },
+        {
+          "id": 4,
+          "value": "Endorsement"
+        },
+        {
+          "id": 5,
+          "value": "Quality"
+        },
+        {
+          "id": 6,
+          "value": "Consultancy"
+        },
+        {
+          "id": 7,
+          "value": "Lease"
+        },
+        {
+          "id": 8,
+          "value": "Sales & Distribution"
+        },
+        {
+          "id": 9,
+          "value": "Others"
+        }
+      ]
+    },
+    {
+      "displayName": "Company Name",
+      "order": 1,
+      "tooltip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+      "type": "text",
+      "required": true
+    },
+    {
+      "displayName": "Unit or Vertical",
+      "order": 2,
+      "tooltip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+      "type": "text",
+      "required": true
+    },
+    {
+      "displayName": "Phone Number",
+      "order": 4,
+      "tooltip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+      "type": "number",
+      "required": true
+    },
+    {
+      "displayName": "Email Address",
+      "order": 3,
+      "tooltip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+      "type": "text",
+      "required": true
+    },
+    {
+      "displayName": "Contract Document",
+      "order": 7,
+      "tooltip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+      "type": "document",
+      "required": true
+    },
+    {
+      "displayName": "Type of Document",
+      "order": 6,
+      "tooltip": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.",
+      "type": "dropdown",
+      "values": [
+        {
+          "id": 0,
+          "value": "None"
+        },
+        {
+          "id": 1,
+          "value": "Service Agreements"
+        },
+        {
+          "id": 2,
+          "value": "Advisory"
+        },
+        {
+          "id": 3,
+          "value": "CDA"
+        },
+        {
+          "id": 4,
+          "value": "Endorsement"
+        },
+        {
+          "id": 5,
+          "value": "Quality"
+        },
+        {
+          "id": 6,
+          "value": "Consultancy"
+        },
+        {
+          "id": 7,
+          "value": "Lease"
+        },
+        {
+          "id": 8,
+          "value": "Sales & Distribution"
+        },
+        {
+          "id": 9,
+          "value": "Others"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+@import url(https://fonts.googleapis.com/css?family=Gudea:400,700);
+
+body{
+  background: #EA5C54;
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#EA5C54 ), color-stop(100%,#bb6dec));
+  font-family: 'Gudea', sans-serif;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    color: #AFB1BE;
+    
+}
+.container{
+    margin: auto;
+    margin-top: 30px;
+    width: 500px;
+    max-width: 90%;
+    padding: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    background:linear-gradient(
+45deg, #35394a 0%, #1f222e 100%);
+}
+
+.inputs{
+  border: 2px solid #393d52;
+  background: #32364a ;
+  color: #afb1be;
+  padding: 10px ;
+  border-radius: 5px;
+  margin: 5px;
+  width: 90%;
+}
+.submit{
+    margin-top: 10px;
+    border-radius: 50px;
+    background: transparent;
+    padding: 10px 50px;
+    border: 2px solid #DC6180;
+    color: #DC6180;
+    text-transform: uppercase;
+    font-size: 11px;
+    transition-property: background, color;
+    transition-duration: 0.2s;
+}
+.submit:hover ,input[type = file]::file-selector-button:hover{
+    color: white;
+    background: #DC6180;
+    cursor: pointer;
+    transition-property: background, color;
+    transition-duration: 0.2s;
+}
+input[type = file]::file-selector-button{
+    border-radius: 50px;
+    background: transparent;
+    padding: 10px 50px;
+    border: 2px solid #DC6180;
+    color: #DC6180;
+
+}
+select.inputs{
+  width: 95%;
+}
+
+/* tooltip */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  top: -50px;
+  left: 98%;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
